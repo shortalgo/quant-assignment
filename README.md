@@ -47,7 +47,7 @@ NIFTY_option_data_split.z01
 
 ####  On Linux / macOS
 
-```bash
+
 zip -F NIFTY_option_data_split.zip --out NIFTY_option_data_full.zip
 unzip NIFTY_option_data_full.zip 
 
@@ -56,7 +56,8 @@ unzip NIFTY_option_data_full.zip
 Keep both parts (.zip and .z01) in the same folder.
 Right-click on NIFTY_option_data_split.zip → Extract Here.
 The tool will automatically merge and extract the full dataset.
-Step 2 — Extract Spot Data
+
+### Step 2 — Extract Spot Data
 
 If NIFTY_spot_data.zip is provided separately (or via external link), extract it similarly:
 
@@ -72,27 +73,27 @@ quant-assignment/
 └── SampleTradeReport.csv
 
 How to Complete the Assignment
-Step 1 — Fork This Repository
+### Step 1 — Fork This Repository
 
 Click the Fork button at the top right to create your own copy.
-Step 2 — Clone Your Fork
+### Step 2 — Clone Your Fork
 
 git clone https://github.com/<your-username>/quant-assignment.git
 cd quant-assignment
 
-Step 3 — Prepare Data
+### Step 3 — Prepare Data
 
 Follow the instructions above to merge and extract the NIFTY data into this same directory.
-Step 4 — Work on the Notebook
+### Step 4 — Work on the Notebook
 
 Open newberry_quant_assignment.ipynb in Jupyter Notebook, JupyterLab, or VS Code and complete all tasks.
-Step 5 — Save and Commit Your Work
+### Step 5 — Save and Commit Your Work
 
 git add .
 git commit -m "Completed quant assignment"
 git push
 
-Step 6 — Submit
+### Step 6 — Submit
 
 Either:
 
