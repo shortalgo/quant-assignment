@@ -18,7 +18,7 @@ All task-specific details are given **inside the notebook** — please read it c
 
 ---
 
-## 📂 Repository Contents
+## Repository Contents
 
 | File / Folder | Description |
 |----------------|-------------|
